@@ -30,7 +30,7 @@ while (true) {
     nivelHeroi = 'Ascendente';
   } else if (xpHeroi <= 10000) {
     nivelHeroi = 'Imortal';
-  } else if (xpHeroi >= 1001){
+  } else if (xpHeroi >= 10001){
     nivelHeroi = 'Radiante';
   }
  

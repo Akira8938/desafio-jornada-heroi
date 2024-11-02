@@ -1,4 +1,3 @@
-//readline solicita entrada
 const readline = require('readline');
 
 const ent = readline.createInterface({
@@ -6,8 +5,7 @@ const ent = readline.createInterface({
     output: process.stdout
 });
 
-//Função para obter dados e para a execução do while 
-function obterDados(){
+ function obterDados(){
     ent.question('Deseja continuar? (s/n) ', (op) => {
         if(op !== 's'){
             ent.close();
